@@ -6,7 +6,7 @@ document.querySelectorAll('button').forEach((button) =>{
     if(input === 'C'){
       inputField.value = ''
     } else if (input === 'Del'){
-      inputField.value = ''
+      inputField.value = inputField.value.slice(0, -1);
     } else if(input === '×'){
       inputField.value += '*';
     } else if (input === '÷'){
