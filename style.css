@@ -62,6 +62,12 @@ body{
 
 .plus, .division, .times, .percent, .equal, .minus, .del, .clear{
   background: #8ab4f8 !important;
+  transition: .5s;
+}
+
+.plus:active, .division:active, .times:active, .percent:active, .equal:active, .minus:active, .del:active, .clear:active{
+  background: transparent !important;
+  border: 1px solid #8ab4f8;
 }
 
 .buttons button.clear{
